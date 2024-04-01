@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla Parcel JS Boilerplate</title>
+    <title>Application In Industry 4.0</title>
     <link rel="stylesheet" href="app.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,8 +37,11 @@
         <nav
           class="hidden md:flex items-center gap-10 text-[#1e1e1e] font-light uppercase"
         >
-          <a href="javascript:void(0);">Home</a>
-          <a href="javascript:void(0);">Video</a>
+          <a href="#">Home</a>
+          <a
+            href="#my-video"
+            >Video</a
+          >
         </nav>
       </div>
     </header>
@@ -159,7 +162,40 @@
           </div>
         </div>
       </div>
+
+      <div class="flex items-center justify-center" id="my-video">
+        <video
+          src="./my-video.mp4"
+          class="aspect-video max-w-[800px]"
+          controls
+        ></video>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container mx-auto px-[200px] flex flex-col items-start py-10">
+        <h2 class="text-[36px] font-medium">References</h2>
+        <a
+          class="text-start font-light"
+          target="_blank"
+          href="https://www.researchgate.net/figure/Wireless-cellular-networks-for-distributed-IoT-field-devices_fig5_301274452"
+        >
+          https://www.researchgate.net/figure/Wireless-cellular-networks-for-distributed-IoT-field-devices_fig5_301274452
+        </a>
+        <a
+          class="text-start font-light"
+          target="_blank"
+          href="https://store.ncd.io/product/industrial-iot-long-range-wireless-ph-and-temperature-sensor/"
+        >
+          https://store.ncd.io/product/industrial-iot-long-range-wireless-ph-and-temperature-sensor/
+        </a>
+        <a
+          class="text-start font-light"
+          target="_blank"
+          href="https://iotdesignpro.com/articles/iot-and-cloud-computing"
+        >
+          https://iotdesignpro.com/articles/iot-and-cloud-computing
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
